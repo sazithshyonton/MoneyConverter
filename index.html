@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+
+
+<head>
+	<title> Converter | Landing Page</title>
+
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<meta charset="utf-8">
+
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,700;1,900&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body>
+
+
+	<header>
+		<div class="container">
+    		<div class="logo">
+		        <a href="index.html">
+		        <div class="logo-img">
+		            <img alt="Convert My Money" src="img/logo.png">
+		        </div>
+		        </a>
+		        <div class="tagline">Convert My Money</div>
+		        
+		       </div>
+    	</div>
+	</header>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+
+	<section>
+		<div class="convert">
+			<div>
+			<h1 class="custom-h1">Free Online Currency Converter</h1>
+		</div>
+		<div class="app_description">
+				This website is a simple currency converter that allows you to quickly check the latest currency exchange rates<br />
+				<br />
+			</div>
+		</div>
+	</section>
+
+		<br>
+		<br>
+		<br>
+		<br>
+
+	<section>
+		<div class="conDiv">
+		<form name="converter">
+
+        <fieldset>
+
+            <input type="number" name="taka" required placeholder="Enter Amount">
+            <select name="currency" id="inputCurrency" onchange="Converter()" onclick="Converter()" oninput="Converter()">
+                <option value="bdt">BDT</option>
+                <option value="usd">USD</option>
+                <option value="cad">CAD</option>
+                <option value="eur">EUR</option>
+                <option value="aud">AUD</option>
+                <option value="gbp">GBP</option>
+            </select>
+
+            <input type="button" value="Convert" onclick="Converter(converter.taka.value)"><br><br>
+            <label style="padding-right: 7px;">Bangladeshi Taka: </label>
+
+            <input id="BDT" style="margin-right: 20px; "><br><br>
+
+            <label style=" padding-left: 20px;">United States Dollar:</label>
+
+            <input id="USD" style="margin-right: 55px; "><br><br>
+
+            <label>Canadian Dollar: </label>
+
+            <input id="CAD"><br><br>
+
+            <label style="padding-left: 90px;">Euro: </label>
+
+            <input id="EUR"><br><br>
+
+            <label>Australian Dollar: </label>
+
+            <input id="AUD"><br><br>
+
+            <label style="padding-left: 30px;"> British Pound : </label>
+
+            <input id="GBP">
+        	
+        	<br><br>
+
+            <input type="reset" value="Re-Check">
+
+
+        </fieldset>
+    </form>
+    </div>
+	</section>
+	
+
+
+	<footer>
+		<div class="footer">
+        	<div class="footer_item copyright ">Copyright © 2020 Md. Sazith
+        		Shyonton Sharon,4th year student CSE,DIU 
+        	</div>
+       
+        	<div class="footer_links">
+	        	<a href="index.html">Money Converter</a>&nbsp;|&nbsp;
+	            <a href="http://sazith15-9843.epizy.com/html/myInfo.html" target="_blank">About Me</a> &nbsp; |&nbsp;
+	            <a href="http://sazith15-9843.epizy.com" target="_blank">Contact Me</a> &nbsp; |&nbsp;
+        	</div>
+
+        
+    	</div>
+
+	</footer>
+
+
+	<script type="text/javascript" src="js/main.js"></script>
+
+
+</body>
+
+
+</html>
